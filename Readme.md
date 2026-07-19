@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <strong>A modern, customizable React UI component library inspired by shadcn/ui.</strong>
+  <strong>A modern, customizable React UI component library.</strong>
 </p>
 
 <p align="center">
