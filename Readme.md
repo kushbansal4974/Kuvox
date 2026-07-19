@@ -4,7 +4,7 @@
   <img src="https://img.shields.io/npm/v/virtualui-react-components?style=for-the-badge&logo=npm&color=CB3837" alt="npm version" />
   <img src="https://img.shields.io/npm/dm/virtualui-react-components?style=for-the-badge&logo=npm&color=blue" alt="npm downloads" />
   <img src="https://img.shields.io/npm/l/virtualui-react-components?style=for-the-badge" alt="License" />
-  <img src="https://img.shields.io/github/stars/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY?style=for-the-badge" alt="GitHub Stars" />
+  <img src="https://img.shields.io/github/stars/kushbansal4974/VirtualUI?style=for-the-badge" alt="GitHub Stars" />
 </p>
 
 <p align="center">
