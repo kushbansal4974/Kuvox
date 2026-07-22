@@ -1,10 +1,10 @@
 # Kuvox React Components
 
 <p align="center">
-  <img src="https://img.shields.io/npm/v/virtualui-react-components?style=for-the-badge&logo=npm&color=CB3837" alt="npm version" />
-  <img src="https://img.shields.io/npm/dm/virtualui-react-components?style=for-the-badge&logo=npm&color=blue" alt="npm downloads" />
-  <img src="https://img.shields.io/npm/l/virtualui-react-components?style=for-the-badge" alt="License" />
-  <img src="https://img.shields.io/github/stars/kushbansal4974/VirtualUI?style=for-the-badge" alt="GitHub Stars" />
+  <img src="https://img.shields.io/npm/v/kuvox?style=for-the-badge&logo=npm&color=CB3837" alt="npm version" />
+  <img src="https://img.shields.io/npm/dm/kuvox?style=for-the-badge&logo=npm&color=blue" alt="npm downloads" />
+  <img src="https://img.shields.io/npm/l/kuvox?style=for-the-badge" alt="License" />
+  <img src="https://img.shields.io/github/stars/kushbansal4974/Kuvox?style=for-the-badge" alt="GitHub Stars" />
 </p>
 
 <p align="center">
@@ -19,24 +19,24 @@
 
 ## 📦 NPM Package
 
-**NPM:** https://www.npmjs.com/package/virtualui-react-components
+**NPM:** https://www.npmjs.com/package/kuvox
 
 Install the package:
 
 ```bash
-npm install virtualui-react-components
+npm install kuvox
 ```
 
 or
 
 ```bash
-yarn add virtualui-react-components
+yarn add kuvox
 ```
 
 or
 
 ```bash
-pnpm add virtualui-react-components
+pnpm add kuvox
 ```
 
 ---
@@ -59,7 +59,7 @@ pnpm add virtualui-react-components
 Import any component directly.
 
 ```jsx
-import { Button } from "virtualui-react-components";
+import { Button } from "kuvox";
 
 function App() {
   return (
@@ -80,6 +80,7 @@ Current Components
 
 - Button
 - Card
+- ProfileCard
 
 
 > More components are continuously being added.
@@ -172,7 +173,7 @@ and
 
 # 📦 Package
 
-https://www.npmjs.com/package/virtualui-react-components
+https://www.npmjs.com/package/kuvox
 
 ---
 
