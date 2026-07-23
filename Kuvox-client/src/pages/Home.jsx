@@ -1,11 +1,13 @@
+import { useState } from "react"
 import Auth from "../components/Auth"
 
 
 function Home() {
+  const [showAuth, setShowAuth] = useState(false)
   return (
-    <div className="text-4xl text-red-500">
-      
-      <Auth/>
+    <div className="">
+      <button onClick={()=> setShowAuth(true)}>Open</button>
+      {showAuth && <Auth onClose={()=> setShowAuth(false)}/>}
     </div>
   )
 }

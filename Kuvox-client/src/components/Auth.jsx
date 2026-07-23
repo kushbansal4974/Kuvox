@@ -1,7 +1,7 @@
 import { AnimatePresence, motion } from "motion/react";
 import { TbX } from "react-icons/tb";
 
-function Auth() {
+function Auth({ onClose }) {
   return (
     <>
       <AnimatePresence>
@@ -12,13 +12,17 @@ function Auth() {
           className="fixed inset-0 flex items-center justify-center bg-black/70 backdrop-blur-sm z-50 p-4"
         >
           <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
+            initial={{ opacity: 0, y: 28, scale: 0.95 }}
+            animate={{ opacity: 1, y: 0, scale: 1 }}
+            exit={{ opacity: 0, y: 20, scale: 0.96 }}
+            transition={{ duration: 1.2 }}
             className="flex flex-col sm:flex-row w-full max-w-220 max-h-[90vh] overflow-y-auto rounded-2xl border border-[#3be8ff]/10 shadow-[0_40px_80px_rgba(0,0,0,0.8)] relative"
           >
             {/* X button  */}
-            <button className="absolute top-3 right-3 z-20 w-8 h-8 rounded-lg bg-white/5 hover:bg-white/10 flex items-center justify-center text-white/50 hover:text-white transition-all cursor-pointer">
+            <button
+              onClick={onClose}
+              className="absolute top-3 right-3 z-20 w-8 h-8 rounded-lg bg-white/5 hover:bg-white/10 flex items-center justify-center text-white/50 hover:text-white transition-all cursor-pointer"
+            >
               <TbX />
             </button>
             {/* left box */}
