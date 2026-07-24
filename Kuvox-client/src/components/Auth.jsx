@@ -1,5 +1,35 @@
 import { AnimatePresence, motion } from "motion/react";
-import { TbX } from "react-icons/tb";
+import { TbCopy, TbDownload, TbLogin2, TbSettings, TbX } from "react-icons/tb";
+import { SiValorant } from "react-icons/si";
+import { HiSparkles } from "react-icons/hi";
+
+const steps = [
+  {
+    icon: TbLogin2,
+    title: "Login with Google",
+    desc: "Secure OAuth to unlock all AI tools instantly.",
+  },
+  {
+    icon: HiSparkles,
+    title: "Get 200 AI Credits",
+    desc: "Free credits to generate premium ui components.",
+  },
+  {
+    icon: TbSettings,
+    title: "Customize props",
+    desc: "Fine-tune and preview every change live.",
+  },
+  {
+    icon: TbCopy,
+    title: "Generate Components",
+    desc: "AI builds production-ready JSX components.",
+  },
+  {
+    icon: TbDownload,
+    title: "Copy or Save",
+    desc: "Export clean code straight into your project.",
+  },
+];
 
 function Auth({ onClose }) {
   return (
@@ -30,15 +60,24 @@ function Auth({ onClose }) {
               <div className="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-[radial-gradient(circle, rgba(59,232,255,0.08)_0%, transparent_70%)] pointer-events-none" />
 
               <motion.div
-              initial={{ opacity: 0, x:-14}}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.2 }}
-              className="flex items-center gap-3 mb-7 sm:mb-9">
+                initial={{ opacity: 0, x: -14 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.2 }}
+                className="flex items-center gap-3 mb-7 sm:mb-9"
+              >
                 <div className="w-9 h-9 rounded-xl bg-linear-to-br from-[#3be8ff] to-[#0ab5d4] flex items-center justify-center shadow-[0_0_18px_rgba(59,232,255,0.35)]">
-                  
+                  <SiValorant size={17} color="#051c20" />
                 </div>
-                <span></span>
+                <span
+                  className="text-xl font-bold text-[#e8f8fa] tracking-tight"
+                  style={{ fontFamily: "'Syne', sans-serif" }}
+                >
+                  Kuvox
+                </span>
               </motion.div>
+              <p className="text-[10px] font-semibold tracking-[3px] text-[#3be8ff] uppercase mb-4 sm:mb-5">
+                How it works
+              </p>
             </div>
 
             {/* right box */}
